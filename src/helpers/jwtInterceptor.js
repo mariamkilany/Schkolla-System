@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const jwtInterceoptor = axios.create({
-  baseURL: "http://localhost:4000/v1/",
+  baseURL: "https://joker.animeraa.com/",
 });
 
 jwtInterceoptor.interceptors.request.use((config) => {
