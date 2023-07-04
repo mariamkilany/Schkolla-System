@@ -1,0 +1,78 @@
+.massenger {
+    height: 100vh;
+    display: flex;
+    background-color: white;
+    margin-top: 85px;
+}
+
+.chatMenu {
+    flex: 2.5;
+    border-right: 1px solid #80808047;
+    overflow-y: scroll;
+}
+
+.chatBox {
+    flex: 5.5;
+}
+
+.chatBoxWrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.chatBoxTop {
+    height: 78%;
+    overflow-y: scroll;
+}
+
+.chatBoxBottom {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.chatBoxBottom .btn {
+    background-color: #254c71;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+}
+
+.chatBoxBottom .btn .sendIcon {
+    width: 20px;
+    height: 20px;
+    fill: white;
+}
+
+.chatMessageInput {
+    width: 90%;
+    height: fit-content;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: right;
+}
+
+.chatMenuWrapper,
+.chatBoxWrapper {
+    padding: 10px;
+    height: 100%;
+    /* overflow-y: scroll; */
+}
+
+.chatMenuInput {
+    width: 90%;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid gray;
+    background-color: transparent;
+}
+
+textarea {
+    resize: none;
+}
+
+.convbg {
+    background-color: #e2e0e0;
+}

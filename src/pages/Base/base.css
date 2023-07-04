@@ -1,0 +1,50 @@
+.shap-sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.shape{
+    background: rgb(74,123,170);
+    background: linear-gradient(90deg, rgba(74,123,170,1) 0%, rgba(37,76,113,1) 82%);
+    border-radius: 30% 70% 70% 30% / 30% 36% 64% 70% ;
+    -webkit-border-radius: 30% 70% 70% 30% / 30% 36% 64% 70% ;
+    -moz-border-radius: 30% 70% 70% 30% / 30% 36% 64% 70% ;
+    -ms-border-radius: 30% 70% 70% 30% / 30% 36% 64% 70% ;
+    -o-border-radius: 30% 70% 70% 30% / 30% 36% 64% 70% ;
+    width: 60vh;
+    height: 60vh;
+}
+.student-svg{
+    /* transform: translateY(45px);
+    -webkit-transform: translateY(45px);
+    -moz-transform: translateY(45px);
+    -ms-transform: translateY(45px);
+    -o-transform: translateY(45px); */
+}
+.disciption h1{
+    font-size: 49px !important;
+    font-weight: 600 !important;
+}
+.disciption span{
+    font-size: 45px !important;
+    font-weight: 600 !important;
+}
+.serv{
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    height: 140px !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 2px 3px 0 #00000012;
+}
+.disciption h1{
+    font-size: 217% !important;
+}
+.serv img{
+    width: 80px;
+}

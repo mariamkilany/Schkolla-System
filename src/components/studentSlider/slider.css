@@ -1,0 +1,77 @@
+.card{
+    width: 100% !important;
+    background-color: #63D0B4 !important;
+    padding: 18px !important;
+    border-radius: 20px !important;
+    -webkit-border-radius: 20px !important;
+    -moz-border-radius: 20px !important;
+    -ms-border-radius: 20px !important;
+    -o-border-radius: 20px !important;
+    border:none !important;
+    box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card img{
+    border-radius: 50%;
+    border: solid white 3px;
+    box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
+    width: 120px;
+    height: 120px;
+    
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card-text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    color: white;
+    font-weight: 500;
+}
+.card button{
+    background-color: #F3F4F8;
+    border: none;
+    box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
+    font-family: inherit;
+    padding: 5px;
+    font-size: medium;
+    color: rgba(0, 0, 0, 0.7);
+}
+.pink-card{
+    background-color: #FDBAB1 !important;
+    color:#FDBAB1 !important;
+}
+.blue-card{
+    background-color: #254C71 !important;
+    color: #254C71 !important;;
+}
+.green-card{
+    background-color: #63D0B4 !important;
+    color: #63D0B4 !important;
+}
+.swiper-slide{
+    width: fit-content !important;
+}
+.swiper-3d .swiper-cube-shadow,
+.swiper-3d .swiper-slide,
+.swiper-3d .swiper-slide-shadow,
+.swiper-3d .swiper-slide-shadow-bottom,
+.swiper-3d .swiper-slide-shadow-left,
+.swiper-3d .swiper-slide-shadow-right,
+.swiper-3d .swiper-slide-shadow-top {
+    border-radius: 20px;
+}
+.swiper-slide {
+    /* width: 40% !important; */
+}
+/* .cardImg{
+    width: 50px;
+    height: 50px;
+} */
